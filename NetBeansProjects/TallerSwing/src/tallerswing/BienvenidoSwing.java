@@ -18,7 +18,7 @@ class BienvenidoSwing extends JFrame {
         contenedor.setLayout(null);
         texto1=new JTextField("Aqui otro texto");
         etiqueta1=new JLabel();
-        etiqueta1.setText("Etiqueta lista, inicializada por @sigmotoa usando el metodo setText()");
+        etiqueta1.setText("Etiqueta cambiada y lista, inicializada por @sigmotoa usando el metodo setText()");
         etiqueta2=new JLabel("Este es otro texto nuevo");
         etiqueta1.setBounds(10, 10, 500, 20);
         etiqueta2.setBounds(10, 50, 320, 20);
